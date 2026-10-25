@@ -1,0 +1,5 @@
+Motphys profiler initialized: disabled
+REGISTERED {'config_class': 'SimpleWalkerEnvCfg', 'available_backends': ['np']}
+INITIAL (4, 22) (6,)
+SMOKE_OK steps=420 completed_episodes= 4 reward= [0.16666417320569357, 0.16666599611441293, 0.18823170850331175, 0.17837655542054223]
+RL SimpleWalkerPPOCfg(seed=42, num_envs=32, play_num_envs=1, max_env_steps=32768, check_point_interval=128, policy_hidden_layer_sizes=(32, 32), value_hidden_layer_sizes=(32, 32), share_policy_value_features=True, rollouts=32, learning_epochs=4, mini_batches=4, discount_factor=0.99, lambda_param=0.95, learning_rate=0.0003, learning_rate_scheduler_kl_threshold=0.008, random_timesteps=0, learning_starts=0, grad_norm_clip=1.0, time_limit_bootstrap=True, ratio_clip=0.2, value_clip=0.2, clip_predicted_values=True, entropy_loss_scale=0.0, value_loss_scale=2.0, kl_threshold=0, rewards_shaper_scale=1.0)

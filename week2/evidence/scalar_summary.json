@@ -1,0 +1,119 @@
+{
+  "Reward / Instantaneous reward (max)": {
+    "count": 32,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 1.0,
+    "last": 1.0,
+    "min": 1.0,
+    "max": 1.0
+  },
+  "Reward / Instantaneous reward (min)": {
+    "count": 32,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 1.0,
+    "last": 1.0,
+    "min": 1.0,
+    "max": 1.0
+  },
+  "Reward / Instantaneous reward (mean)": {
+    "count": 32,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 1.0,
+    "last": 1.0,
+    "min": 1.0,
+    "max": 1.0
+  },
+  "Reward / Total reward (max)": {
+    "count": 25,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 122.0,
+    "last": 1000.0,
+    "min": 122.0,
+    "max": 1000.0
+  },
+  "Reward / Total reward (min)": {
+    "count": 25,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 1.0,
+    "last": 1000.0,
+    "min": 1.0,
+    "max": 1000.0
+  },
+  "Reward / Total reward (mean)": {
+    "count": 25,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 39.21946716308594,
+    "last": 1000.0,
+    "min": 39.21946716308594,
+    "max": 1000.0
+  },
+  "Episode / Total timesteps (max)": {
+    "count": 25,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 122.0,
+    "last": 1000.0,
+    "min": 122.0,
+    "max": 1000.0
+  },
+  "Episode / Total timesteps (min)": {
+    "count": 25,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 1.0,
+    "last": 1000.0,
+    "min": 1.0,
+    "max": 1000.0
+  },
+  "Episode / Total timesteps (mean)": {
+    "count": 25,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 39.21946716308594,
+    "last": 1000.0,
+    "min": 39.21946716308594,
+    "max": 1000.0
+  },
+  "Loss / Policy loss": {
+    "count": 32,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": -0.006655829958617687,
+    "last": 0.0019457759335637093,
+    "min": -0.010968663729727268,
+    "max": 0.007544299587607384
+  },
+  "Loss / Value loss": {
+    "count": 32,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 1.540908694267273,
+    "last": 4.88725208924734e-06,
+    "min": 4.88725208924734e-06,
+    "max": 1.540908694267273
+  },
+  "Policy / Standard deviation": {
+    "count": 32,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 2.7143216133117676,
+    "last": 0.1298622339963913,
+    "min": 0.1298622339963913,
+    "max": 2.7143216133117676
+  },
+  "Learning / Learning rate": {
+    "count": 32,
+    "first_step": 128,
+    "last_step": 4096,
+    "first": 0.008009548299014568,
+    "last": 0.0027160493191331625,
+    "min": 0.0002980575372930616,
+    "max": 0.009999999776482582
+  }
+}

@@ -1,0 +1,12 @@
+Motphys profiler initialized: disabled
+I1025 19:04:30.283785 24084 play.py:112] DeviceSupports(torch=True, torch_gpu=False, jax=False, jax_gpu=False)
+I1025 19:04:30.285506 24084 play.py:131] Using specified policy: D:\Xbotics\MotrixLab\week2\runs\cartpole\26-10-25_18-59-35-304424_PPO\checkpoints\best_agent.pt
+[skrl:WARNING] Using `from skrl.envs.torch import ...` is deprecated and will be removed in future versions.
+W1025 19:04:30.693417 24084 torch.py:5] Using `from skrl.envs.torch import ...` is deprecated and will be removed in future versions.
+[skrl:WARNING]  - Import loaders using `from skrl.envs.loaders.torch import ...`
+W1025 19:04:30.693417 24084 torch.py:6]  - Import loaders using `from skrl.envs.loaders.torch import ...`
+[skrl:WARNING]  - Import wrappers using `from skrl.envs.wrappers.torch import ...`
+W1025 19:04:30.693417 24084 torch.py:7]  - Import wrappers using `from skrl.envs.wrappers.torch import ...`
+[skrl:INFO] Seed: 42
+I1025 19:04:30.740857 24084 __init__.py:82] Seed: 42
+2026-10-25T11:04:31.778758Z  WARN bevy_asset::server::loaders: Duplicate AssetLoader registered for Asset type `bevy_image::image::Image` with extensions `["png", "jpg", "jpeg"]`. Loader must be specified in a .meta file in order to load assets of this type with these extensions.

@@ -1,0 +1,21 @@
+Motphys profiler initialized: disabled
+[skrl:WARNING] Using `from skrl.envs.torch import ...` is deprecated and will be removed in future versions.
+[skrl:WARNING]  - Import loaders using `from skrl.envs.loaders.torch import ...`
+[skrl:WARNING]  - Import wrappers using `from skrl.envs.wrappers.torch import ...`
+[skrl:INFO] Seed: 42
+CHECKPOINT_LOADED D:\Xbotics\MotrixLab\week2\runs\cartpole\26-10-25_18-59-35-304424_PPO\checkpoints\best_agent.pt
+{
+  "steps": 2000,
+  "completed_episodes": 2,
+  "episode_lengths": [
+    1000,
+    1000
+  ],
+  "episode_returns": [
+    1000.0,
+    1000.0
+  ],
+  "mean_completed_return": 1000.0,
+  "unfinished_episode_steps": 0,
+  "all_observations_finite": true
+}
