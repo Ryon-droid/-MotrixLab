@@ -15,10 +15,29 @@ from motrixsim import msd
 from motrixsim.render import RenderApp, RenderSettings
 from PIL import Image, ImageDraw, ImageFont
 
+
+def mono_font(size):
+    """Use an installed font on Windows, Linux or macOS."""
+    for candidate in (
+        "C:/Windows/Fonts/consola.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "/System/Library/Fonts/Menlo.ttc",
+    ):
+        try:
+            return ImageFont.truetype(candidate, size)
+        except OSError:
+            continue
+    return ImageFont.load_default(size=size)
+
+
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("source_root", type=pathlib.Path, nargs="?", default=pathlib.Path(__file__).resolve().parents[1] / "source")
+parser.add_argument("--output", type=pathlib.Path,
+                    default=pathlib.Path(__file__).resolve().parents[1] / "evidence",
+                    help="Directory for camera images and the capture manifest")
 args = parser.parse_args()
-out = pathlib.Path(__file__).resolve().parents[1] / "evidence"
+out = args.output.resolve()
+out.mkdir(parents=True, exist_ok=True)
 xml = args.source_root.resolve() / "motrix_envs/src/motrix_envs/basic/cartpole/cartpole.xml"
 scene = msd.from_file(str(xml))
 eye = np.array([1.35, -2.8, 1.4])
@@ -40,7 +59,7 @@ model = scene.build()
 camera = model.cameras["assignment_camera"]
 camera.set_render_target("image", 1280, 800)
 data = mtx.SceneData(model, batch=[1])
-font = ImageFont.truetype("C:/Windows/Fonts/consola.ttf", 25)
+font = mono_font(25)
 states = [("simulation_upright.png", 0., 0., "Upright / reference state"),
           ("simulation_near_limit.png", .60, .18, "Within limits / manually set state"),
           ("simulation_failed.png", .0, .25, "Angle failure / manually set state")]
@@ -74,7 +93,7 @@ with RenderApp(headless=True) as render:
         draw = ImageDraw.Draw(canvas)
         draw.text((28, 14), title, font=font, fill="white")
         draw.text((28, 53), f"x={x:.2f} m   theta={theta:.2f} rad   |theta|<=0.20, |x|<=0.80", font=font, fill="#9fe2d1")
-        draw.text((28, 92), "Official engine capture | v0.3.0 XML + camera | NOT an IndWork screenshot", font=ImageFont.truetype("C:/Windows/Fonts/consola.ttf", 20), fill="#bacada")
+        draw.text((28, 92), "Official engine capture | v0.3.0 XML + camera | NOT an IndWork screenshot", font=mono_font(20), fill="#bacada")
         canvas.save(out / name)
         manifest["states"].append({"file": name, "raw": raw_name, "x_m": x, "theta_rad": theta,
                                    "terminated": abs(theta) > .2 or abs(x) > .8})

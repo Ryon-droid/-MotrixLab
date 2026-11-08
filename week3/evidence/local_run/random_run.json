@@ -1,0 +1,115 @@
+{
+  "mode": "random",
+  "seed": 42,
+  "rl_training": false,
+  "controller": "uniform random actions",
+  "gain": null,
+  "episodes": [
+    {
+      "steps": 31,
+      "return": 31.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 65,
+      "return": 65.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 84,
+      "return": 84.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 63,
+      "return": 63.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 26,
+      "return": 26.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 49,
+      "return": 49.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 127,
+      "return": 127.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 34,
+      "return": 34.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 36,
+      "return": 36.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 41,
+      "return": 41.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 27,
+      "return": 27.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 39,
+      "return": 39.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 115,
+      "return": 115.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 29,
+      "return": 29.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 37,
+      "return": 37.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 36,
+      "return": 36.0,
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "steps": 61,
+      "return": 61.0,
+      "terminated": true,
+      "truncated": false
+    }
+  ],
+  "total_steps": 1000,
+  "unfinished_episode_steps": 100,
+  "failure_episodes": 17,
+  "time_limit_episodes": 0
+}

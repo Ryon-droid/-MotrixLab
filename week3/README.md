@@ -8,6 +8,17 @@
 - [运行结果：2000 步平衡演示](evidence/balance_run.json)
 - [运行结果：原任务规则核验](evidence/verification.json)
 
+## 当前 Linux 桌面运行
+
+已在本机建立独立的 `.venv`（Python 3.10.19、MotrixSim 0.7.0），可以双击桌面的 **第三周 CartPole** 启动仿真，或在 `week3` 目录执行：
+
+```bash
+./run_cartpole.sh
+./run_cartpole.sh --headless --steps 2000
+```
+
+本机实际完成 2000 步平衡演示，两个回合均达到 1000 步时间截断，失败次数为 0；带窗口运行和规则核验也已通过。复现命令、环境版本、日志和真实桌面截图见 [本机复现记录](evidence/local_run/README.md)。平衡控制使用现有 LQR 工程基线。
+
 ## 拉取后怎么运行
 
 本目录使用 **Python 3.10、MotrixSim 0.7.0**。建议使用独立环境，避免覆盖巧工中其他项目的依赖。
@@ -51,6 +62,9 @@ uv run python code/verify_cartpole.py
 
 # 重新生成三张官方引擎效果图（原始相机图也一并保存）
 uv run python code/capture_cartpole.py
+
+# 将新图片保存到独立目录（支持 Windows、Linux、macOS 字体）
+uv run python code/capture_cartpole.py --output evidence/local_run/capture
 ```
 
 如果使用手动创建的环境，把 `uv run python` 替换成 `.\.venv\Scripts\python.exe` 或 `.venv/bin/python`。
@@ -85,4 +99,4 @@ uv run python code/capture_cartpole.py
 
 需要重新生成 PDF 时，在另外的文档环境安装 `reportlab` 和 `pillow`，在 Windows 上运行 `python code/build_report.py`；该排版脚本使用系统中文字体。仿真本身不依赖 ReportLab。
 
-本次没有从巧工界面点击运行或抓取窗口；你可以在巧工拉取后启动上述入口，并截取该软件中的实际运行画面。
+原始作业提交未提供巧工窗口截图。本机现已运行 MotrixRender 窗口并保存 [真实桌面截图](evidence/local_run/desktop_cartpole.png)；它与上面的引擎相机采图分别保存。

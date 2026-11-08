@@ -1,0 +1,149 @@
+Motphys profiler initialized: disabled
+{
+  "versions": {
+    "motrixsim": "0.7.0",
+    "numpy": "2.2.6",
+    "gymnasium": "1.1.1"
+  },
+  "training_performed": false,
+  "seed": 42,
+  "checks": {
+    "spaces_and_clock": {
+      "observation_shape": [
+        4
+      ],
+      "action_shape": [
+        1
+      ],
+      "action_low": [
+        -3.0
+      ],
+      "action_high": [
+        3.0
+      ],
+      "sim_dt": 0.01,
+      "ctrl_dt": 0.01,
+      "max_episode_seconds": 10,
+      "max_episode_steps": 1000,
+      "sim_substeps": 1
+    },
+    "observation_order": [
+      0.10999999940395355,
+      0.019999999552965164,
+      0.33000001311302185,
+      0.4399999976158142
+    ],
+    "failure_boundaries": [
+      {
+        "x": 0.0,
+        "theta": 0.2,
+        "terminated": false
+      },
+      {
+        "x": 0.0,
+        "theta": -0.2,
+        "terminated": false
+      },
+      {
+        "x": 0.8,
+        "theta": 0.0,
+        "terminated": false
+      },
+      {
+        "x": -0.8,
+        "theta": 0.0,
+        "terminated": false
+      },
+      {
+        "x": 0.0,
+        "theta": 0.201,
+        "terminated": true
+      },
+      {
+        "x": 0.0,
+        "theta": -0.201,
+        "terminated": true
+      },
+      {
+        "x": 0.801,
+        "theta": 0.0,
+        "terminated": true
+      },
+      {
+        "x": -0.801,
+        "theta": 0.0,
+        "terminated": true
+      }
+    ],
+    "nan_angle_terminates": true,
+    "time_limit": {
+      "steps": 1000,
+      "seconds": 10.0,
+      "return": 1000.0,
+      "terminated": false,
+      "truncated": true,
+      "post_reset_step_counter": 0,
+      "returned_observation_is_reset_state": true,
+      "zero_noise_equilibrium_clock_test": true
+    },
+    "next_episode_first_step": {
+      "done": false,
+      "steps": 1
+    },
+    "failure_autoreset": {
+      "terminated": true,
+      "truncated": false,
+      "returned_observation": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counter": 0,
+      "failure_step_reward": 1.0
+    },
+    "reset_samples": {
+      "count": 1024,
+      "min": [
+        -0.009901200421154499,
+        -0.00999938603490591,
+        -0.009999766945838928,
+        -0.009995459578931332
+      ],
+      "max": [
+        0.009988274425268173,
+        0.009956416673958302,
+        0.009966949932277203,
+        0.009991154074668884
+      ]
+    },
+    "actuator_saturation": {
+      "one_step_dof_vel_by_input": {
+        "-30.0": [
+          -0.21329912543296814,
+          0.2034144103527069
+        ],
+        "-3.0": [
+          -0.21329912543296814,
+          0.2034144103527069
+        ],
+        "0.0": [
+          0.0,
+          0.0
+        ],
+        "3.0": [
+          0.21329912543296814,
+          -0.2034144103527069
+        ],
+        "30.0": [
+          0.21329912543296814,
+          -0.2034144103527069
+        ]
+      },
+      "plus_3_equals_plus_30": true,
+      "minus_3_equals_minus_30": true,
+      "xml_force_rule": "F = 100 * clip(action, -3, 3) N"
+    }
+  },
+  "passed": true
+}
