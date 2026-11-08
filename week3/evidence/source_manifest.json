@@ -1,0 +1,59 @@
+{
+  "repository": "https://github.com/Motphys/MotrixLab",
+  "tag": "v0.3.0",
+  "commit": "e1421d10559c825e72bab0f3cbb517c333d67e16",
+  "files": {
+    "LICENSE": {
+      "sha256": "bab3619e840696b21a0e8f98c76ffce4ddfb506990be59528efd8933409d6af9",
+      "bytes": 10802
+    },
+    "NOTICE": {
+      "sha256": "d53ac10bb3d43facd7042e4ec1c7ed110c5778487415ebdccaa9614e9c939455",
+      "bytes": 677
+    },
+    "motrix_envs/src/motrix_envs/base.py": {
+      "sha256": "279169e86fa2894fb87bf5706b972d722d0a5a229ada0c248dcdb0dad50645ee",
+      "bytes": 2198
+    },
+    "motrix_envs/src/motrix_envs/registry.py": {
+      "sha256": "568c2cdb94755a04e6a953f90f84104749e2397d25e56cecf1b893b934e7012e",
+      "bytes": 5647
+    },
+    "motrix_envs/src/motrix_envs/np/env.py": {
+      "sha256": "3ddabcfe0931cee9c64d186ac95f910757034e54dde5a20fb304f4c640ced224",
+      "bytes": 6445
+    },
+    "motrix_envs/src/motrix_envs/np/renderer.py": {
+      "sha256": "dede9947334e8ca69a0a10a89fac33acc9c9a4c7a5defcc855fed7864004829d",
+      "bytes": 2165
+    },
+    "motrix_envs/src/motrix_envs/basic/cartpole/cartpole_np.py": {
+      "sha256": "d1f96718ee9c3cb12a908a6dfff485edc61267501ce5a43c3de85058a5258c33",
+      "bytes": 3370
+    },
+    "motrix_envs/src/motrix_envs/basic/cartpole/cfg.py": {
+      "sha256": "039f0ceeb1e672a6c642438fc3ba68c73d6f6c7e7ca19bfb37d5ca54efed205b",
+      "bytes": 1085
+    },
+    "motrix_envs/src/motrix_envs/basic/cartpole/cartpole.xml": {
+      "sha256": "acf4df3f4a8b8fca36da9057f7bd6a1707c1096e20fec60688d9bdd26f13e827",
+      "bytes": 1534
+    },
+    "motrix_rl/src/motrix_rl/tasks/cartpole.py": {
+      "sha256": "92834802fd25d0835202e0c6638940b3353d83e79f52881727ea8218f9b2b652",
+      "bytes": 9635
+    },
+    "motrix_rl/src/motrix_rl/skrl/torch/wrap_np.py": {
+      "sha256": "5c5099c55e8e2b71b13ceb0e2b510b7ec24caedf0a816205ee549068a0e55e17",
+      "bytes": 2541
+    },
+    "motrix_rl/src/motrix_rl/skrl/torch/train/ppo.py": {
+      "sha256": "b0914d7e56d2748faae8c666efaef3e1d4ed333c6ff282d5af4273231d2eae54",
+      "bytes": 15979
+    },
+    "motrix_envs/src/motrix_envs/common/motphys-ground.png": {
+      "sha256": "c1ed597194fe5c3cf8b46286568a9520be2af547b1f6be219c439956fdbdbfaf",
+      "bytes": 56655
+    }
+  }
+}

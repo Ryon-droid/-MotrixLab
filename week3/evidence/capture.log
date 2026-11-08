@@ -1,0 +1,33 @@
+Motphys profiler initialized: disabled
+2026-11-08T07:16:55.531555Z  WARN bevy_asset::server::loaders: Duplicate AssetLoader registered for Asset type `bevy_image::image::Image` with extensions `["png", "jpg", "jpeg"]`. Loader must be specified in a .meta file in order to load assets of this type with these extensions.
+{
+  "type": "MotrixSim 0.7.0 offscreen camera capture",
+  "desktop_screenshot": false,
+  "indwork_screenshot": false,
+  "trained_policy": false,
+  "physical_model_modified": false,
+  "camera_added_in_memory": true,
+  "states": [
+    {
+      "file": "simulation_upright.png",
+      "raw": "simulation_upright_raw.png",
+      "x_m": 0.0,
+      "theta_rad": 0.0,
+      "terminated": false
+    },
+    {
+      "file": "simulation_near_limit.png",
+      "raw": "simulation_near_limit_raw.png",
+      "x_m": 0.6,
+      "theta_rad": 0.18,
+      "terminated": false
+    },
+    {
+      "file": "simulation_failed.png",
+      "raw": "simulation_failed_raw.png",
+      "x_m": 0.0,
+      "theta_rad": 0.25,
+      "terminated": true
+    }
+  ]
+}

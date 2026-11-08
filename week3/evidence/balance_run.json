@@ -1,0 +1,32 @@
+{
+  "mode": "balance",
+  "seed": 42,
+  "rl_training": false,
+  "controller": "local-linear LQR engineering baseline",
+  "gain": [
+    [
+      -2.359718223094787,
+      -27.33571706665187,
+      -3.77647154060929,
+      -7.704475133933431
+    ]
+  ],
+  "episodes": [
+    {
+      "steps": 1000,
+      "return": 1000.0,
+      "terminated": false,
+      "truncated": true
+    },
+    {
+      "steps": 1000,
+      "return": 1000.0,
+      "terminated": false,
+      "truncated": true
+    }
+  ],
+  "total_steps": 2000,
+  "unfinished_episode_steps": 0,
+  "failure_episodes": 0,
+  "time_limit_episodes": 2
+}

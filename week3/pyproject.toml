@@ -1,0 +1,14 @@
+[project]
+name = "motrixlab-week3-cartpole"
+version = "1.0.0"
+description = "Week 3 CartPole source analysis and runnable simulation"
+requires-python = "==3.10.*"
+dependencies = [
+    "motrixsim==0.7.0",
+    "numpy==2.2.6",
+    "gymnasium==1.1.1",
+    "pillow==12.3.0",
+]
+
+[tool.uv]
+package = false
