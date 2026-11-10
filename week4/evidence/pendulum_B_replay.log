@@ -1,0 +1,14 @@
+Motphys profiler initialized: disabled
+[38;20m[skrl:INFO] Seed: 0[0m
+[33;20m[skrl:WARNING] Using `from skrl.envs.torch import ...` is deprecated and will be removed in future versions.[0m
+[33;20m[skrl:WARNING]  - Import loaders using `from skrl.envs.loaders.torch import ...`[0m
+[33;20m[skrl:WARNING]  - Import wrappers using `from skrl.envs.wrappers.torch import ...`[0m
+[38;20m[skrl:INFO] Seed: 0[0m
+{"task": "pendulum", "group": "B", "seed": 0, "policy": "runs/pendulum_B/final_agent.pt", "policy_sha256": "3bec62c05559a05fa23230db5a95dae383019007a9fb5cb5ba5175f354f53fc0", "deterministic_mean_actions": true, "steps": 400, "ctrl_dt": 0.025, "duration_seconds": 10.0, "terminated": false, "truncated": true, "initial_qpos": [0.3067042827606201], "terminal_qpos_before_reset": [0.04936252161860466], "total_reward": 1197.6972806453705, "terminal_state_captured_before_autoreset": true, "initial_tilt_degrees": 17.572858810424805, "terminal_tilt_degrees": 2.8282625675201416, "ever_upright": true, "final_upright": true, "first_upright_seconds": 0.225, "upright_fraction": 0.98, "minimum_tilt_degrees": 2.8282625675201416}
+[38;20m[skrl:INFO] Seed: 1[0m
+[38;20m[skrl:INFO] Seed: 1[0m
+{"task": "pendulum", "group": "B", "seed": 1, "policy": "runs/pendulum_B/final_agent.pt", "policy_sha256": "3bec62c05559a05fa23230db5a95dae383019007a9fb5cb5ba5175f354f53fc0", "deterministic_mean_actions": true, "steps": 400, "ctrl_dt": 0.025, "duration_seconds": 10.0, "terminated": false, "truncated": true, "initial_qpos": [-0.5213661193847656], "terminal_qpos_before_reset": [0.04936238005757332], "total_reward": 1194.928733587265, "terminal_state_captured_before_autoreset": true, "initial_tilt_degrees": 29.8720760345459, "terminal_tilt_degrees": 2.8282625675201416, "ever_upright": true, "final_upright": true, "first_upright_seconds": 0.5, "upright_fraction": 0.9525, "minimum_tilt_degrees": 0.01978234015405178}
+[38;20m[skrl:INFO] Seed: 2[0m
+[38;20m[skrl:INFO] Seed: 2[0m
+{"task": "pendulum", "group": "B", "seed": 2, "policy": "runs/pendulum_B/final_agent.pt", "policy_sha256": "3bec62c05559a05fa23230db5a95dae383019007a9fb5cb5ba5175f354f53fc0", "deterministic_mean_actions": true, "steps": 400, "ctrl_dt": 0.025, "duration_seconds": 10.0, "terminated": false, "truncated": true, "initial_qpos": [-0.40215587615966797], "terminal_qpos_before_reset": [0.04936238005757332], "total_reward": 1196.7407369613647, "terminal_state_captured_before_autoreset": true, "initial_tilt_degrees": 23.04183578491211, "terminal_tilt_degrees": 2.8282625675201416, "ever_upright": true, "final_upright": true, "first_upright_seconds": 0.325, "upright_fraction": 0.97, "minimum_tilt_degrees": 0.04423465579748154}
+EVALUATION_COMPLETED pendulum_B

@@ -1,0 +1,5 @@
+MotrixLab v0.3.0, commit e1421d10559c825e72bab0f3cbb517c333d67e16.
+Copyright (C) 2020-2025 Motphys Technology Co., Ltd. Apache-2.0.
+Unmodified minimal environment and Torch PPO source snapshot.
+Ground texture restored from the identical verified Git LFS object.
+The B-group single-line modification is outside this snapshot: code/pendulum_no_energy.py.

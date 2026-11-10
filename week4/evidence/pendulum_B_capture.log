@@ -1,0 +1,12 @@
+Motphys profiler initialized: disabled
+2026-11-10T07:46:20.048528Z  WARN wgpu_hal::vulkan::instance: Unable to find extension: VK_EXT_physical_device_drm
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib64/alsa-lib/libasound_module_pcm_pipewire.so ((null): /usr/lib64/alsa-lib/libasound_module_pcm_pipewire.so: cannot open shared object file: No such file or directory)
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib64/alsa-lib/libasound_module_pcm_jack.so ((null): /usr/lib64/alsa-lib/libasound_module_pcm_jack.so: cannot open shared object file: No such file or directory)
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib64/alsa-lib/libasound_module_pcm_jack.so ((null): /usr/lib64/alsa-lib/libasound_module_pcm_jack.so: cannot open shared object file: No such file or directory)
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib64/alsa-lib/libasound_module_pcm_pipewire.so ((null): /usr/lib64/alsa-lib/libasound_module_pcm_pipewire.so: cannot open shared object file: No such file or directory)
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib64/alsa-lib/libasound_module_pcm_pipewire.so ((null): /usr/lib64/alsa-lib/libasound_module_pcm_pipewire.so: cannot open shared object file: No such file or directory)
+2026-11-10T07:46:21.001202Z  WARN bevy_audio::audio_output: No audio device found.
+2026-11-10T07:46:21.006044Z  WARN bevy_asset::server::loaders: Duplicate AssetLoader registered for Asset type `bevy_image::image::Image` with extensions `["png", "jpg", "jpeg"]`. Loader must be specified in a .meta file in order to load assets of this type with these extensions.
+VIDEO_COMPLETED pendulum_B_seed0.mp4 frames 201
+VIDEO_COMPLETED pendulum_B_seed1.mp4 frames 201
+VIDEO_COMPLETED pendulum_B_seed2.mp4 frames 201

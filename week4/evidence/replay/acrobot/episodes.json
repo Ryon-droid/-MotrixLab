@@ -1,0 +1,28 @@
+{
+  "command": "python code/evaluate.py --env acrobot --seeds 0",
+  "episodes": [
+    {
+      "task": "acrobot",
+      "group": "A",
+      "seed": 0,
+      "policy": "runs/acrobot/final_agent.pt",
+      "policy_sha256": "f607603aabe68f7e1048614bcd63d48e61a0c3fb96739255f55dc860db2fa5df",
+      "deterministic_mean_actions": true,
+      "steps": 500,
+      "ctrl_dt": 0.02,
+      "duration_seconds": 10.0,
+      "terminated": true,
+      "truncated": true,
+      "initial_qpos": [
+        0.3067042827606201,
+        1.3520746231079102
+      ],
+      "terminal_qpos_before_reset": [
+        37.09735107421875,
+        -36.76247787475586
+      ],
+      "total_reward": 175.68070459372873,
+      "terminal_state_captured_before_autoreset": true
+    }
+  ]
+}

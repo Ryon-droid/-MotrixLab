@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+motrixsim==0.7.0
+numpy==2.2.6
+gymnasium==1.1.1
+skrl==1.4.3
+torch==2.7.0+cu128
+tensorboard==2.20.0
+pillow==12.3.0
+scipy==1.15.3
+imageio==2.38.0
+imageio-ffmpeg==0.8.1
+playwright==1.65.0
+markdown==3.10.3
+pypdf==7.0.0

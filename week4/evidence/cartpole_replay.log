@@ -1,0 +1,8 @@
+Motphys profiler initialized: disabled
+[38;20m[skrl:INFO] Seed: 0[0m
+[33;20m[skrl:WARNING] Using `from skrl.envs.torch import ...` is deprecated and will be removed in future versions.[0m
+[33;20m[skrl:WARNING]  - Import loaders using `from skrl.envs.loaders.torch import ...`[0m
+[33;20m[skrl:WARNING]  - Import wrappers using `from skrl.envs.wrappers.torch import ...`[0m
+[38;20m[skrl:INFO] Seed: 0[0m
+{"task": "cartpole", "group": "A", "seed": 0, "policy": "runs/cartpole/final_agent.pt", "policy_sha256": "99ddab25587bb8004aad0bc10cd6097ce630617da55e4615200c9b56a3c2d476", "deterministic_mean_actions": true, "steps": 1000, "ctrl_dt": 0.01, "duration_seconds": 10.0, "terminated": false, "truncated": true, "initial_qpos": [0.0009762700647115707, 0.0043037873692810535], "terminal_qpos_before_reset": [-0.020261436700820923, -1.2227081242599525e-05], "total_reward": 1000.0, "terminal_state_captured_before_autoreset": true}
+EVALUATION_COMPLETED cartpole

@@ -1,0 +1,119 @@
+{
+  "command": "python code/train.py --env cartpole --num-envs 128 --steps 4096 --seed 42",
+  "task": "cartpole",
+  "group": "A",
+  "seed": 42,
+  "version": "MotrixLab v0.3.0",
+  "commit": "e1421d10559c825e72bab0f3cbb517c333d67e16",
+  "versions": {
+    "torch": "2.7.0+cu128",
+    "skrl": "1.4.3",
+    "motrixsim": "0.7.0",
+    "numpy": "2.2.6",
+    "gymnasium": "1.1.1",
+    "tensorboard": "2.20.0"
+  },
+  "python": "3.10.19 (main, Nov 19 2025, 22:43:44) [Clang 21.1.4 ]",
+  "platform": "Linux-5.15.0-191-generic-x86_64-with-glibc2.39",
+  "device": "cpu",
+  "vector_steps": 4096,
+  "num_envs": 128,
+  "environment_transitions": 524288,
+  "rl_config": {
+    "num_envs": 128,
+    "play_num_envs": 1,
+    "runner": {
+      "seed": 42,
+      "models": {
+        "separate": false,
+        "policy": {
+          "class_name": "GaussianMixin",
+          "clip_actions": false,
+          "clip_log_std": true,
+          "initial_log_std": 1.0,
+          "min_log_std": -20.0,
+          "max_log_std": 2.0,
+          "reduction": "sum",
+          "input": "STATES",
+          "hiddens": [
+            32,
+            32
+          ],
+          "hidden_activation": [
+            "elu"
+          ],
+          "output": "ACTIONS",
+          "output_activation": "",
+          "output_scale": 1.0
+        },
+        "value": {
+          "class_name": "DeterministicMixin",
+          "clip_actions": false,
+          "input": "STATES",
+          "hiddens": [
+            32,
+            32
+          ],
+          "hidden_activation": [
+            "elu"
+          ],
+          "output": "ONE",
+          "output_activation": "",
+          "output_scale": 1.0
+        }
+      },
+      "memory": {
+        "class_name": "RandomMemory",
+        "memory_size": -1
+      },
+      "agent": {
+        "class_name": "PPO",
+        "rollouts": 32,
+        "learning_epochs": 5,
+        "mini_batches": 4,
+        "discount_factor": 0.99,
+        "lam": 0.95,
+        "learning_rate": 0.001,
+        "learning_rate_scheduler": "KLAdaptiveLR",
+        "learning_rate_scheduler_kwargs": {
+          "kl_threshold": 0.008
+        },
+        "random_timesteps": 0,
+        "learning_starts": 0,
+        "grad_norm_clip": 1.0,
+        "ratio_clip": 0.2,
+        "value_clip": 0.2,
+        "clip_predicted_values": true,
+        "entropy_loss_scale": 0.0,
+        "value_loss_scale": 2.0,
+        "kl_threshold": 0,
+        "rewards_shaper_scale": 1.0,
+        "time_limit_bootstrap": true,
+        "experiment": {
+          "directory": "runs",
+          "experiment_name": "seed42",
+          "write_interval": 128,
+          "checkpoint_interval": 2048
+        }
+      },
+      "trainer": {
+        "class_name": "SequentialTrainer",
+        "timesteps": 4096
+      }
+    }
+  },
+  "env_config": {
+    "model_file": "/home/ubuntu/Desktop/-MotrixLab/week4/source/motrix_envs/src/motrix_envs/basic/cartpole/cartpole.xml",
+    "sim_dt": 0.01,
+    "max_episode_seconds": 10,
+    "ctrl_dt": 0.01,
+    "render_spacing": 2.0,
+    "reset_noise_scale": 0.01
+  },
+  "from_scratch": true,
+  "energy_contribution_coefficient": 1,
+  "elapsed_seconds": 17.962668191175908,
+  "final_checkpoint": "runs/cartpole/final_agent.pt",
+  "final_checkpoint_sha256": "99ddab25587bb8004aad0bc10cd6097ce630617da55e4615200c9b56a3c2d476",
+  "completed": true
+}

@@ -1,0 +1,78 @@
+{
+  "upstream_integrity": {
+    "verified_files": 37,
+    "commit": "e1421d10559c825e72bab0f3cbb517c333d67e16"
+  },
+  "ab_source_change": "Exactly one replacement: + energy_reward -> + 0.0 * energy_reward",
+  "ab_identical_configs": true,
+  "ab_reward_difference": {
+    "A": 2.735088586807251,
+    "B": 2.5129802227020264,
+    "difference": 0.2221083641052246,
+    "computed_energy_reward": 0.22210833371171437
+  },
+  "timeout_flags_physics_held_fixed": {
+    "cartpole": {
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "post_reset_step_counter": 0
+    },
+    "pendulum": {
+      "steps": 400,
+      "terminated": false,
+      "truncated": true,
+      "post_reset_step_counter": 0
+    },
+    "acrobot": {
+      "steps": 500,
+      "terminated": true,
+      "truncated": true,
+      "post_reset_step_counter": 0
+    }
+  },
+  "pendulum_zero_angle_is_upward": {
+    "0.0": {
+      "pivot_z": 0.6000000238418579,
+      "tip_z": 1.100000023841858
+    },
+    "3.141592653589793": {
+      "pivot_z": 0.6000000238418579,
+      "tip_z": 0.10000002384185974
+    }
+  },
+  "reacher": {
+    "obs_shape": [
+      1024,
+      10
+    ],
+    "num_qpos": 4,
+    "num_qvel": 4,
+    "joint_names": [
+      "shoulder",
+      "wrist",
+      "target_x",
+      "target_y"
+    ],
+    "actuator_names": [
+      "shoulder",
+      "wrist"
+    ],
+    "sample_count": 1024,
+    "target_x_sample_min": -0.1499778926372528,
+    "target_x_sample_max": 0.14998920261859894,
+    "target_y_unique": [
+      0.15000000596046448
+    ],
+    "velocity_max_abs": 0.0
+  },
+  "reacher_reward_at_distances": {
+    "0": 1.0,
+    "0.01": 1.0,
+    "0.02": 1.0,
+    "0.03": 0.5000000000000001,
+    "0.04": 0.0,
+    "0.05": 0.0
+  },
+  "all_checks_passed": true
+}

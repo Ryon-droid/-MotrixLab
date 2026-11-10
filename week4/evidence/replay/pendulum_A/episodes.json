@@ -1,0 +1,89 @@
+{
+  "command": "python code/evaluate.py --env pendulum --group A --seeds 0 1 2",
+  "episodes": [
+    {
+      "task": "pendulum",
+      "group": "A",
+      "seed": 0,
+      "policy": "runs/pendulum_A/final_agent.pt",
+      "policy_sha256": "eb9887fe5a9f4a259c413ba76d6d27cbfa7f7b98683ad7c58760e2eb5011f80f",
+      "deterministic_mean_actions": true,
+      "steps": 400,
+      "ctrl_dt": 0.025,
+      "duration_seconds": 10.0,
+      "terminated": false,
+      "truncated": true,
+      "initial_qpos": [
+        0.3067042827606201
+      ],
+      "terminal_qpos_before_reset": [
+        -0.11137033998966217
+      ],
+      "total_reward": 1236.4765408039093,
+      "terminal_state_captured_before_autoreset": true,
+      "initial_tilt_degrees": 17.572858810424805,
+      "terminal_tilt_degrees": 6.381038665771484,
+      "ever_upright": true,
+      "final_upright": true,
+      "first_upright_seconds": 0.1,
+      "upright_fraction": 0.9925,
+      "minimum_tilt_degrees": 0.02797645330429077
+    },
+    {
+      "task": "pendulum",
+      "group": "A",
+      "seed": 1,
+      "policy": "runs/pendulum_A/final_agent.pt",
+      "policy_sha256": "eb9887fe5a9f4a259c413ba76d6d27cbfa7f7b98683ad7c58760e2eb5011f80f",
+      "deterministic_mean_actions": true,
+      "steps": 400,
+      "ctrl_dt": 0.025,
+      "duration_seconds": 10.0,
+      "terminated": false,
+      "truncated": true,
+      "initial_qpos": [
+        -0.5213661193847656
+      ],
+      "terminal_qpos_before_reset": [
+        -0.11137063056230545
+      ],
+      "total_reward": 1234.089025735855,
+      "terminal_state_captured_before_autoreset": true,
+      "initial_tilt_degrees": 29.8720760345459,
+      "terminal_tilt_degrees": 6.381069660186768,
+      "ever_upright": true,
+      "final_upright": true,
+      "first_upright_seconds": 0.5750000000000001,
+      "upright_fraction": 0.945,
+      "minimum_tilt_degrees": 6.381069660186768
+    },
+    {
+      "task": "pendulum",
+      "group": "A",
+      "seed": 2,
+      "policy": "runs/pendulum_A/final_agent.pt",
+      "policy_sha256": "eb9887fe5a9f4a259c413ba76d6d27cbfa7f7b98683ad7c58760e2eb5011f80f",
+      "deterministic_mean_actions": true,
+      "steps": 400,
+      "ctrl_dt": 0.025,
+      "duration_seconds": 10.0,
+      "terminated": false,
+      "truncated": true,
+      "initial_qpos": [
+        -0.40215587615966797
+      ],
+      "terminal_qpos_before_reset": [
+        -0.11137061566114426
+      ],
+      "total_reward": 1235.2111020088196,
+      "terminal_state_captured_before_autoreset": true,
+      "initial_tilt_degrees": 23.04183578491211,
+      "terminal_tilt_degrees": 6.381069660186768,
+      "ever_upright": true,
+      "final_upright": true,
+      "first_upright_seconds": 0.375,
+      "upright_fraction": 0.965,
+      "minimum_tilt_degrees": 6.381069660186768
+    }
+  ]
+}

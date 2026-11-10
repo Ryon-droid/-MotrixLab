@@ -1,0 +1,30 @@
+Motphys profiler initialized: disabled
+[38;20m[skrl:INFO] Seed: 42[0m
+[33;20m[skrl:WARNING] Using `from skrl.envs.torch import ...` is deprecated and will be removed in future versions.[0m
+[33;20m[skrl:WARNING]  - Import loaders using `from skrl.envs.loaders.torch import ...`[0m
+[33;20m[skrl:WARNING]  - Import wrappers using `from skrl.envs.wrappers.torch import ...`[0m
+{
+  "command": "python code/train.py --env acrobot --num-envs 128 --steps 8192 --seed 42",
+  "task": "acrobot",
+  "group": "A",
+  "seed": 42,
+  "version": "MotrixLab v0.3.0",
+  "commit": "e1421d10559c825e72bab0f3cbb517c333d67e16",
+  "versions": {
+    "torch": "2.7.0+cu128",
+    "skrl": "1.4.3",
+    "motrixsim": "0.7.0",
+    "numpy": "2.2.6",
+    "gymnasium": "1.1.1",
+    "tensorboard": "2.20.0"
+  },
+  "python": "3.10.19 (main, Nov 19 2025, 22:43:44) [Clang 21.1.4 ]",
+  "platform": "Linux-5.15.0-191-generic-x86_64-with-glibc2.39",
+  "device": "cpu",
+  "vector_steps": 8192,
+  "num_envs": 128,
+  "environment_transitions": 1048576,
+  "from_scratch": true,
+  "energy_contribution_coefficient": 1
+}
+TRAINING_COMPLETED task=acrobot group=A seed=42 vector_steps=8192 num_envs=128 transitions=1048576 elapsed_seconds=37.01 checkpoint=runs/acrobot/final_agent.pt

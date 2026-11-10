@@ -1,0 +1,328 @@
+{
+  "pendulum_B": {
+    "Reward / Instantaneous reward (max)": {
+      "first": 2.9968855381011963,
+      "last": 2.9999969005584717,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Instantaneous reward (min)": {
+      "first": -23.62071990966797,
+      "last": -0.5908895134925842,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Instantaneous reward (mean)": {
+      "first": -1.3562495708465576,
+      "last": 2.9407565593719482,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Loss / Policy loss": {
+      "first": -0.005664885509759188,
+      "last": -0.007264023646712303,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Loss / Value loss": {
+      "first": 1.8355507850646973,
+      "last": 0.00010053534060716629,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Policy / Standard deviation": {
+      "first": 2.6996335983276367,
+      "last": 0.10402962565422058,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Learning / Learning rate": {
+      "first": 0.0030849608592689037,
+      "last": 0.0013717421097680926,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Total reward (max)": {
+      "first": 4.105766773223877,
+      "last": 1196.4879150390625,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Reward / Total reward (min)": {
+      "first": -991.1411743164062,
+      "last": 883.0838012695312,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Reward / Total reward (mean)": {
+      "first": -164.54966735839844,
+      "last": 1109.0941162109375,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Episode / Total timesteps (max)": {
+      "first": 400.0,
+      "last": 400.0,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Episode / Total timesteps (min)": {
+      "first": 400.0,
+      "last": 400.0,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Episode / Total timesteps (mean)": {
+      "first": 400.0,
+      "last": 400.0,
+      "last_step": 8064,
+      "count": 20
+    }
+  },
+  "cartpole": {
+    "Reward / Instantaneous reward (max)": {
+      "first": 1.0,
+      "last": 1.0,
+      "last_step": 4096,
+      "count": 32
+    },
+    "Reward / Instantaneous reward (min)": {
+      "first": 1.0,
+      "last": 1.0,
+      "last_step": 4096,
+      "count": 32
+    },
+    "Reward / Instantaneous reward (mean)": {
+      "first": 1.0,
+      "last": 1.0,
+      "last_step": 4096,
+      "count": 32
+    },
+    "Reward / Total reward (max)": {
+      "first": 127.0,
+      "last": 1000.0,
+      "last_step": 3968,
+      "count": 29
+    },
+    "Reward / Total reward (min)": {
+      "first": 19.0,
+      "last": 1000.0,
+      "last_step": 3968,
+      "count": 29
+    },
+    "Reward / Total reward (mean)": {
+      "first": 42.391502380371094,
+      "last": 1000.0,
+      "last_step": 3968,
+      "count": 29
+    },
+    "Episode / Total timesteps (max)": {
+      "first": 127.0,
+      "last": 1000.0,
+      "last_step": 3968,
+      "count": 29
+    },
+    "Episode / Total timesteps (min)": {
+      "first": 19.0,
+      "last": 1000.0,
+      "last_step": 3968,
+      "count": 29
+    },
+    "Episode / Total timesteps (mean)": {
+      "first": 42.391502380371094,
+      "last": 1000.0,
+      "last_step": 3968,
+      "count": 29
+    },
+    "Loss / Policy loss": {
+      "first": -0.008241845294833183,
+      "last": -0.010175585746765137,
+      "last_step": 4096,
+      "count": 32
+    },
+    "Loss / Value loss": {
+      "first": 1.5591440200805664,
+      "last": 8.973927833721973e-06,
+      "last_step": 4096,
+      "count": 32
+    },
+    "Policy / Standard deviation": {
+      "first": 2.6526236534118652,
+      "last": 0.2761147618293762,
+      "last_step": 4096,
+      "count": 32
+    },
+    "Learning / Learning rate": {
+      "first": 0.0067594521678984165,
+      "last": 0.001316872425377369,
+      "last_step": 4096,
+      "count": 32
+    }
+  },
+  "pendulum_A": {
+    "Reward / Instantaneous reward (max)": {
+      "first": 3.2701096534729004,
+      "last": 3.098886013031006,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Instantaneous reward (min)": {
+      "first": -23.62071990966797,
+      "last": 0.985602080821991,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Instantaneous reward (mean)": {
+      "first": -0.9446662068367004,
+      "last": 3.0452475547790527,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Loss / Policy loss": {
+      "first": -0.007217149715870619,
+      "last": 0.003269445849582553,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Loss / Value loss": {
+      "first": 1.8213633298873901,
+      "last": 0.00021760902018286288,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Policy / Standard deviation": {
+      "first": 2.684364080429077,
+      "last": 0.0539737343788147,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Learning / Learning rate": {
+      "first": 0.0021832031197845936,
+      "last": 0.0018106995848938823,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Total reward (max)": {
+      "first": 346.1387023925781,
+      "last": 1236.5931396484375,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Reward / Total reward (min)": {
+      "first": -708.4232788085938,
+      "last": 937.1646118164062,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Reward / Total reward (mean)": {
+      "first": 125.39169311523438,
+      "last": 1183.09619140625,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Episode / Total timesteps (max)": {
+      "first": 400.0,
+      "last": 400.0,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Episode / Total timesteps (min)": {
+      "first": 400.0,
+      "last": 400.0,
+      "last_step": 8064,
+      "count": 20
+    },
+    "Episode / Total timesteps (mean)": {
+      "first": 400.0,
+      "last": 400.0,
+      "last_step": 8064,
+      "count": 20
+    }
+  },
+  "acrobot": {
+    "Reward / Instantaneous reward (max)": {
+      "first": 1.3860540390014648,
+      "last": 1.3998290300369263,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Instantaneous reward (min)": {
+      "first": -0.2585636079311371,
+      "last": -0.05471936985850334,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Instantaneous reward (mean)": {
+      "first": -0.012866638600826263,
+      "last": 0.2857540547847748,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Loss / Policy loss": {
+      "first": -0.0013788569485768676,
+      "last": -0.0008481880649924278,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Loss / Value loss": {
+      "first": 0.7280474901199341,
+      "last": 0.02404174581170082,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Loss / Entropy loss": {
+      "first": -0.49501022696495056,
+      "last": -0.6837875843048096,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Policy / Standard deviation": {
+      "first": 3.0308876037597656,
+      "last": 7.389053821563721,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Learning / Learning rate": {
+      "first": 0.0037019532173871994,
+      "last": 0.009999999776482582,
+      "last_step": 8192,
+      "count": 64
+    },
+    "Reward / Total reward (max)": {
+      "first": 39.366695404052734,
+      "last": 210.69436645507812,
+      "last_step": 8064,
+      "count": 16
+    },
+    "Reward / Total reward (min)": {
+      "first": -16.915748596191406,
+      "last": 76.11537170410156,
+      "last_step": 8064,
+      "count": 16
+    },
+    "Reward / Total reward (mean)": {
+      "first": 2.702255964279175,
+      "last": 129.58570861816406,
+      "last_step": 8064,
+      "count": 16
+    },
+    "Episode / Total timesteps (max)": {
+      "first": 500.0,
+      "last": 500.0,
+      "last_step": 8064,
+      "count": 16
+    },
+    "Episode / Total timesteps (min)": {
+      "first": 500.0,
+      "last": 500.0,
+      "last_step": 8064,
+      "count": 16
+    },
+    "Episode / Total timesteps (mean)": {
+      "first": 500.0,
+      "last": 500.0,
+      "last_step": 8064,
+      "count": 16
+    }
+  }
+}
